@@ -79,6 +79,5 @@ def run_register_model(data_path: str, top_n: int):
     print(f"Name: {model_version.name}")
     print(f"Version: {model_version.version}")
 
-
 if __name__ == '__main__':
     run_register_model()
